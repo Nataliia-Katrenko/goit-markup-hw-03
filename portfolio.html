@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <nav class="header-nav">
-            <a href="./index.html" class="logo link list">Web<span class="studio-top">Studio</span></a>
-            <ul class="list">
-                <li><a href="./index.html" class="header-link link">Studio</a></li>
-                <li><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
-                <li><a href="" class="header-link link">Contacts</a></li>
-            </ul>
-        </nav>
-        <address class="header-address">
-            <ul class="list">
-                <li><a href="mailto:info@devstudio.com" class="address link list">info@devstudio.com</a></li>
-                <li><a href="tel:+110001111111" class="address link list">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="./index.html" class="logo link list">Web<span class="studio-top">Studio</span></a>
+                <ul class="header-list list">
+                    <li><a href="./index.html" class="header-link link">Studio</a></li>
+                    <li><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
+                    <li><a href="" class="header-link link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="header-address">
+                <ul class="address-list list">
+                    <li><a href="mailto:info@devstudio.com" class="address link list">info@devstudio.com</a></li>
+                    <li><a href="tel:+110001111111" class="address link list">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
     </header>
     <main>
         <section class="main list">
@@ -37,67 +39,71 @@
                 <li><button type="button" class="main-button">Design</button></li>
                 <li><button type="button" class="main-button">Marketing</button></li>
             </ul>
-            <ul class="list">
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img1.jpg" alt="Banking App Interface Concept">
-                        <h2 class="list-item-title">Banking App Interface Concept</h2>
-                        <p class="list-item-text">App</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img2.jpg" alt="Cashless Payment">
-                        <h2 class="list-item-title">Cashless Payment</h2>
-                        <p class="list-item-text">Marketing</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img3.jpg" alt="Meditation App">
-                        <h2 class="list-item-title">Meditation App</h2>
-                        <p class="list-item-text">App</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img4.jpg" alt="Taxi Service">
-                        <h2 class="list-item-title">Taxi Service</h2>
-                        <p class="list-item-text">Marketing</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img5.jpg" alt="Screen Illustrations">
-                        <h2 class="list-item-title">Screen Illustrations</h2>
-                        <p class="list-item-text">Design</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img6.jpg" alt="Online Courses">
-                        <h2 class="list-item-title">Online Courses</h2>
-                        <p class="list-item-text">Marketing</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img7.jpg" alt="Instagram Stories Concept">
-                        <h2 class="list-item-title">Instagram Stories Concept</h2>
-                        <p class="list-item-text">Design</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img8.jpg" alt="Organic Food">
-                        <h2 class="list-item-title">Organic Food</h2>
-                        <p class="list-item-text">Web Site</p></a>
-                </li>
-                <li>
-                    <a class="item-link link" href="">
-                        <img src="./images/doing/img9.jpg" alt="Fresh Coffee">
-                        <h2 class="list-item-title">Fresh Coffee</h2>
-                        <p class="list-item-text">Web Site</p></a>
-                </li>
-            </ul>
+            <div class="list-container">
+                <ul class="portfolio-list list">
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/banking.jpg" alt="Banking App Interface Concept">
+                            <h2 class="list-item-title">Banking App Interface Concept</h2>
+                            <p class="list-item-text">App</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/payment.jpg" alt="Cashless Payment">
+                            <h2 class="list-item-title">Cashless Payment</h2>
+                            <p class="list-item-text">Marketing</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/meditation.jpg" alt="Meditation App">
+                            <h2 class="list-item-title">Meditation App</h2>
+                            <p class="list-item-text">App</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/taxi.jpg" alt="Taxi Service">
+                            <h2 class="list-item-title">Taxi Service</h2>
+                            <p class="list-item-text">Marketing</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/screen.jpg" alt="Screen Illustrations">
+                            <h2 class="list-item-title">Screen Illustrations</h2>
+                            <p class="list-item-text">Design</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/courses.jpg" alt="Online Courses">
+                            <h2 class="list-item-title">Online Courses</h2>
+                            <p class="list-item-text">Marketing</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/stories.jpg" alt="Instagram Stories Concept">
+                            <h2 class="list-item-title">Instagram Stories Concept</h2>
+                            <p class="list-item-text">Design</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/organic.jpg" alt="Organic Food">
+                            <h2 class="list-item-title">Organic Food</h2>
+                            <p class="list-item-text">Web Site</p></a>
+                    </li>
+                    <li class="portfolio-border">
+                        <a class="item-link link" href="">
+                            <img src="./images/doing/coffee.jpg" alt="Fresh Coffee">
+                            <h2 class="list-item-title">Fresh Coffee</h2>
+                            <p class="list-item-text">Web Site</p></a>
+                    </li>
+                </ul>
+            </div>  
         </section>
     </main>
     <footer class="footer">
-        <a href="./index.html" class="footer-link link">Web<span class="studio-footer">Studio</span></a>
-        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <div class="footer-container">
+            <a href="./index.html" class="footer-link link">Web<span class="studio-footer">Studio</span></a>
+            <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        </div>
     </footer>
     </body>
 </html>
