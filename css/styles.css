@@ -6,29 +6,32 @@
    --color-background: #FFFFFF; 
    --background-team: #F4F4FD;
 }
-
 body{
    font-family: 'Roboto', sans-serif;
-   background: #FFFFFF;
+   background: var(--color-background);
    color: var(--color-main);
 }
-
 .list {
    list-style: none
 }
-
-
 .link {
    text-decoration: none;
 }
-/* ------------------------INDEX----------------------- */
 .container {
-   padding-left: 156px;
-   padding-right: 156px;
+   width: 1158px;
+   margin: auto;
 }
+/* ------------------------INDEX----------------------- */
+
 .header-container {
+   border-bottom: 1px solid #E7E9FC;
    display: flex;
    
+   
+}
+.hero {
+   width: 1440px;
+   margin: auto;
 }
 .logo {
    font-family: 'Raleway', sans-serif;
@@ -97,7 +100,7 @@ body{
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #FFFFFF;
+   color: var(--color-background);
    max-width: 496px;
    margin: auto;
    padding-bottom: 48px;
@@ -109,7 +112,7 @@ body{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
-   color: #FFFFFF;
+   color: var(--color-background);
    cursor: pointer;
    background: var(--color-logo);
    padding: 16px 32px 16px 32px;
@@ -123,18 +126,13 @@ body{
 
 }  
 .main-list {
-   max-width: 1440px;
-   padding: 120px;
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
-
 
 .main-list-items {
    display: flex;
    gap: 24px;
-   
-} 
-.main-list-item {
-  
 }
 
 .main-list-title {
@@ -159,12 +157,8 @@ body{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-
-
 }
-.doing {
-   
-}
+
 .doing-title {
    font-size: 36px;
    line-height: 1.11;
@@ -182,9 +176,13 @@ body{
    justify-content: center;
 }
 .team {
-   background: #F4F4FD;
+   width: 1440px;
+   margin: auto;
+   background: var(--background-team);
    padding-bottom: 120px;  
 }
+
+
 .teams-title {
    font-size: 36px;
    line-height: 1.11;
@@ -196,13 +194,14 @@ body{
    padding-bottom: 72px;
 }
 .team-list {
-   background-color: #FFFFFF;
+   background-color: var(--color-background);
    
 }
 .item-team {
    display: flex;
    gap: 24px;
    justify-content: center;
+   padding-left: 0;
 }
 
 .team-title {
@@ -232,12 +231,13 @@ body{
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--color-link);
-   background-color: #FFFFFF;
-
+   background-color: var(--color-background);
 }
 
 .footer {
    background: var(--color-link);
+   width: 1440px;
+   margin: auto;
 }
 
 .footer-link {
@@ -250,16 +250,15 @@ body{
    color: var(--color-logo);
 }
 .footer-text {
+   width: 264px;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #F4F4FD;
+   color: var(--background-team);
+   margin: 16px 0 0 0;
 }
 
 /* -----------------PORTFOLIO---------------- */
-.main {
-}
-
 .main-title{
    position: absolute;
    width: 1px;
@@ -272,6 +271,7 @@ body{
    clip: rect(0 0 0 0);
    overflow: hidden;
  }
+
 .btn {
    display: flex;
    gap: 24px;
@@ -287,42 +287,32 @@ body{
    line-height: 1.5;
    letter-spacing: 0.04em;
    color: var(--color-logo);
-   background: #F4F4FD;
+   background: var(--background-team);
    cursor: pointer;
    border: none;
-   padding-left: 24px;
-   padding-top: 12px;
-   padding-right: 24px;
-   padding-bottom: 12px;
+   padding: 12px 24px 12px 24px;
 }
 
 .main-button:is(:hover, :focus){
-   color: #FFFFFF;
+   color: var(--color-background);
    background: var(--color-hover);
    cursor: pointer;
-}
-.list-container {
-   max-width: 1440px;
-   display: flex;
-   align-items: center;
 }
 .portfolio-border {
    border: 1px solid #E7E9FC;
 
 }
 .portfolio-list {
-   max-width: 1440px;
    display: flex;
    flex-wrap: wrap;
-   padding-left: 156px;
-   gap: 48px 24px;
-
-   
+   gap: 48px 24px; 
+   padding-left: 0;
+   padding-bottom: 120px;
 }
 
 .list-item {
-   background: #FFFFFF;
-}
+   background: var(--color-background);
+ }
 
 .list-item-title {
    font-weight: 500;
@@ -330,6 +320,7 @@ body{
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--color-link);
+   margin: 32px 54px 8px 16px;
 }
 
 .list-item-text {
@@ -337,15 +328,13 @@ body{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--color-main);
+   margin: 0 auto 32px 16px;
 }
 
-.footer {
-   background: var(--color-link);
-   padding: 100px 156px;
-}
 .footer-container {
-  width: 264px;
+   padding: 100px 0 100px 156px; */
+   margin-top: 120px;
 }
 .studio-footer {
-   color: #F4F4FD;
+   color: var(--background-team);
 }
