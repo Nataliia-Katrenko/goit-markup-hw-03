@@ -52,6 +52,7 @@ body{
 .header-list {
    display: flex;
    gap: 40px;
+   padding-left: 0;
 }
 
 .header-link {
@@ -131,6 +132,7 @@ body{
 }
 
 .main-list-items {
+   margin: 0;
    display: flex;
    gap: 24px;
 }
@@ -142,14 +144,8 @@ body{
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--color-link);
-}
-
-.main-list-title {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: var(--color-link);
+   margin: 0;
+   padding-bottom: 8px;
 }
 
 .main-list-text {
@@ -157,6 +153,7 @@ body{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   margin: 0;
 }
 
 .doing-title {
@@ -167,6 +164,7 @@ body{
    text-transform: capitalize;
    color: var(--color-link);
    padding-bottom: 72px;
+   margin: 0;
 }
 .doing-list {
    background-color: #FFFFFF;
@@ -174,6 +172,7 @@ body{
    gap: 24px;
    padding-bottom: 120px;
    justify-content: center;
+   margin: 0;
 }
 .team {
    width: 1440px;
@@ -192,9 +191,11 @@ body{
    color: var(--color-link);
    padding-top: 120px;
    padding-bottom: 72px;
+   margin: 0;
 }
 .team-list {
    background-color: var(--color-background);
+   margin: 0;
    border-radius: 0px 0px 4px 4px;
    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
    
@@ -281,7 +282,7 @@ body{
    justify-content: center;
    padding-top: 96px;
    padding-bottom: 72px;
-   
+   margin: 0;
 }
 .main-button {
    font-family: inherit;
@@ -312,6 +313,7 @@ body{
    gap: 48px 24px; 
    padding-left: 0;
    padding-bottom: 120px;
+  margin: 0;
 }
 
 .list-item {
