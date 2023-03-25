@@ -41,11 +41,14 @@ body{
    text-transform: uppercase;
    color: var(--color-logo);
    margin-right: 76px;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .header-nav {
    display: flex;
    align-items: center;
    margin-right: auto;
+
 }
 .studio-top {
    color: var(--color-link);
