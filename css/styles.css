@@ -25,12 +25,10 @@ body{
 
 .header-container {
    border-bottom: 1px solid #E7E9FC;
-   display: flex;
-   
-   
+   display: flex;  
 }
 .hero {
-   width: 1440px;
+   max-width: 1440px;
    margin: auto;
 }
 .logo {
@@ -96,12 +94,12 @@ body{
 }
 
 .hero-title {
+   max-width: 496px;
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
    color: var(--color-background);
-   max-width: 496px;
    margin: auto;
    padding-bottom: 48px;
 }
@@ -240,7 +238,7 @@ body{
 
 .footer {
    background: var(--color-link);
-   width: 1440px;
+   max-width: 1440px;
    margin: auto;
 }
 
@@ -259,7 +257,8 @@ body{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--background-team);
-   margin: 16px 0 0 0;
+   margin: 0;
+   padding-top: 16px;
 }
 
 /* -----------------PORTFOLIO---------------- */
@@ -306,7 +305,6 @@ body{
 .border-portfolio {
    border: 1px solid #E7E9FC;
    border-top: none;
-
 }
 .portfolio-list {
    display: flex;
@@ -318,18 +316,16 @@ body{
 
 .list-item {
    background: var(--color-background);
-
  }
 
-
-.list-item-title {
+ .list-item-title {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--color-link);
    padding: 32px 54px 8px 16px;
-   margin-top: 0;
+   margin: 0;
 }
 
 .list-item-text {
@@ -337,7 +333,8 @@ body{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--color-main);
-   margin: 0 auto 32px 16px;
+   margin: 0;
+   padding: 0 0 32px 16px;
 }
 
 .footer-container {
