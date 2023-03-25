@@ -293,8 +293,9 @@ body{
    color: var(--color-logo);
    background: var(--background-team);
    cursor: pointer;
-   border: none;
    padding: 12px 24px 12px 24px;
+   border: 1px solid #E7E9FC;
+   border-radius: 4px;
 }
 
 .main-button:is(:hover, :focus){
