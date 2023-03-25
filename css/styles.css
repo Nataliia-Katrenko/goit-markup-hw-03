@@ -303,8 +303,9 @@ body{
    background: var(--color-hover);
    cursor: pointer;
 }
-.portfolio-border {
- 
+.border-portfolio {
+   border: 1px solid #E7E9FC;
+   border-top: none;
 
 }
 .portfolio-list {
@@ -327,7 +328,8 @@ body{
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--color-link);
-   margin: 32px 54px 8px 16px;
+   padding: 32px 54px 8px 16px;
+   margin-top: 0;
 }
 
 .list-item-text {
